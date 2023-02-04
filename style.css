@@ -1,0 +1,300 @@
+body {
+    background-size: 100%;
+}
+
+#homepage-body {
+    background-image: url(Photos/Home2.jpg);
+    height: 1040px;
+}
+
+#about-me-body {
+    background-image: url(Photos/About-Me-Background.jpg);
+    height: 1040px;
+}
+
+#contact-body {
+    background-image: url(Photos/Contact-Background.jpg);
+    height: 1040px;
+}
+
+#gallery-body {
+    background-color: #BBE4EC;
+    height: 1040px;
+}
+
+#projects-body {
+    background-color: #BBE4EC;
+    height: 1040px;
+}
+
+.sections {
+    background-color: #2a3a45;
+    border: #96d1d1 ridge 8px;
+    margin-left: 400px;
+    margin-right: 400px;
+    height: 100%;
+}
+
+#logo img {
+    width:80px;
+    height: 80px;
+}
+
+.topnav {
+    background-color: #206369;
+    overflow: hidden;
+    height: 60px;
+    display: flex;
+    flex-flow: row nowrap;
+    border: #2A3A45 outset 4px;
+    border-radius: 10px;
+    padding-bottom: 40px;
+    width: 100%;
+    top: 0;
+}
+
+.topnav a {
+    float: left;
+    color: #2A3A45;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-weight: 20px;
+    display: block;
+}
+
+.skeuomorphic-buttons-navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: right;
+    width: 100%; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.skeuomorphic-buttons-navbar a.skeuomorphic-buttons {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    text-align: center;
+    font-size: 12px;
+}
+
+.skeuomorphic-buttons {
+    border: 2px outset #2A3A45;
+    border-radius: 10px;
+    outline-offset: 1px;
+    box-shadow: 0 8px;
+    background-color: #6E838A;
+    margin-top: 10px;
+}
+
+.skeuomorphic-buttons:hover {
+    cursor: pointer;
+    text-decoration: underline #2a3a45;
+}
+
+.skeuomorphic-buttons:active {
+    margin-top: 18px;
+    box-shadow: 0 0px;
+    background-color: #2a3a45;
+    color: #6E838A;
+    border: 2px outset #6E838A;
+    text-decoration: underline #6E838A;
+}
+
+.moon-container {
+    margin-top: 285px;
+    margin-left: 86px;
+    margin-right: 2000px;
+}
+
+#moon {
+    width: 350px;
+    height: 350px;
+    border: #BBE4EC groove 2px;
+    border-radius: 40px;
+}
+
+.tron-background-container {
+    margin-top: -510px;
+    margin-left: 950px;
+}
+
+#tron-background {
+    border: #BBE4EC ridge 2px;
+    border-radius: 40px;
+    width: 320px;
+    height: 179.7px;
+}
+
+.jupiter-container {
+    margin-top: -274px;
+    margin-left: 232px;
+}
+
+#jupiter {
+    border: #BBE4EC inset 2px;
+    border-radius: 40px;
+    width: 499.2px;
+    height: 87.2px;
+}
+
+.saturn-container {
+    margin-top: 486.5px;
+    margin-left: 546px;
+}
+
+#saturn {
+    border: #BBE4EC outset 2px;
+    border-radius: 100%;
+    width: 180.8px;
+    height: 180.8px;
+}
+
+.keyboard-container {
+    margin-top: -182px;
+    margin-left: 1288px;
+}
+
+#keyboard {
+    border: #BBE4EC groove 2px;
+    border-radius: 40px;
+    width: 230.4px;
+    height: 172.8px;
+}
+
+.quick-about-me-container {
+    margin-top: -480px;
+    margin-left: 950px;
+    border: #BBE4EC inset 2px;
+    border-radius: 40px;
+    background-color: #2A3A45;
+    width: 570px;
+}
+
+#quick-about-me {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #BBE4EC;
+    text-indent: 30px;
+    line-height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.text-box-container {
+    border-radius: 40px;
+    background-color: #2A3A45;
+}
+
+.text-box {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    color: #BBE4EC;
+    text-indent: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+#work {
+    margin-left: 40px;
+    margin-top: 150px;
+    height: 120px;
+    width: 500px;
+    padding-bottom: 20px;
+    border: #BBE4EC inset 2px;
+}
+
+#education {
+    margin-left: 1130px;
+    margin-top: -200px;
+    height: 165x;
+    width: 640px;
+    transform: RotateZ(-10deg);
+    font-size: 20px;
+    line-height: 30px;
+    border: #BBE4EC inset 2px;
+}
+
+#interests {
+    margin-left: 1200px;
+    margin-top: 300px;
+    height: 240px;
+    width: 470px;
+    font-size: 22px;
+    line-height: 32px;
+    transform: rotateZ(-10deg);
+    border: #BBE4EC inset 2px;
+}
+
+#about-me {
+    margin-left: 140px;
+    margin-top: -360px;
+    height: 437px;
+    width: 685px;
+    font-size: 35px;
+    line-height: 45px;
+    border: #BBE4EC outset 2px;
+}
+
+.image-of-myself-container {
+    margin-top: -818px;
+    margin-left: 663px;
+}
+
+#image-of-myself {
+    border: #BBE4EC outset 2px;
+    border-radius: 100%;
+    width: 246.153846154px;
+    height: 246.153846154px;
+}
+
+.image-of-myself2-container {
+    margin-top: 440px;
+    margin-left: 1257.5px;
+}
+
+#image-of-myself2 {
+    border: #BBE4EC ridge 8px;
+    border-radius: 100%;
+    width: 416px;
+    height: 416px;
+}
+
+.contact-info-container {
+    margin-top: -440px;
+    margin-left: 230px;
+}
+
+#contact-info > h2 {
+    text-align: center;
+}
+
+#contact-info > h3 {
+    text-align: center;
+}
+
+#contact-info {
+    border: #BBE4EC groove 8px;
+    background-color: #2A3A45;
+    font-size: 25px;
+    line-height: 32px;
+    width: 550px;
+    height: 150px;
+    border-radius: 40px;
+    padding-right: 28px;
+}
+
+.logo2-container {
+    margin-top: -540px;
+    margin-left: 350px;
+}
+
+#logo2 {
+    width: 357.142857143px;
+    height: 357.142857143px;
+}
